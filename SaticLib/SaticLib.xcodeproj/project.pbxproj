@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AD912C0A265D0430003AA998 /* SaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C08265D0430003AA998 /* SaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD912C4F265D058C003AA998 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C4D265D058C003AA998 /* Person.h */; };
+		AD912C50265D058C003AA998 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C4E265D058C003AA998 /* Person.m */; };
+		AD912C55265D059C003AA998 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C53265D059C003AA998 /* Test.h */; };
+		AD912C56265D059C003AA998 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C54265D059C003AA998 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD912C05265D0430003AA998 /* SaticLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SaticLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD912C08265D0430003AA998 /* SaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaticLib.h; sourceTree = "<group>"; };
 		AD912C09265D0430003AA998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD912C4D265D058C003AA998 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AD912C4E265D058C003AA998 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AD912C53265D059C003AA998 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AD912C54265D059C003AA998 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				AD912C08265D0430003AA998 /* SaticLib.h */,
+				AD912C53265D059C003AA998 /* Test.h */,
+				AD912C54265D059C003AA998 /* Test.m */,
+				AD912C4D265D058C003AA998 /* Person.h */,
+				AD912C4E265D058C003AA998 /* Person.m */,
 				AD912C09265D0430003AA998 /* Info.plist */,
 			);
 			path = SaticLib;
@@ -60,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD912C0A265D0430003AA998 /* SaticLib.h in Headers */,
+				AD912C4F265D058C003AA998 /* Person.h in Headers */,
+				AD912C55265D059C003AA998 /* Test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD912C50265D058C003AA998 /* Person.m in Sources */,
+				AD912C56265D059C003AA998 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

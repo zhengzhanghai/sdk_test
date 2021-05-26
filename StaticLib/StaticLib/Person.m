@@ -10,7 +10,7 @@
 @implementation Person
 
 - (void)run {
-    NSLog(@"Framework Person Run");
+    NSLog(@"Static Person Run, name = %@", self.name);
 }
 
 @end

@@ -1,8 +1,8 @@
 //
 //  Test.h
-//  SaticLib
+//  DynamicLib
 //
-//  Created by 郑章海 on 2021/5/25.
+//  Created by 郑章海 on 2021/5/26.
 //
 
 #import <Foundation/Foundation.h>

@@ -6,7 +6,10 @@
 //
 
 #import "ViewController.h"
-#import <StaticLib/Test.h>
+//#import <StaticLib/Test.h>
+#import <DynamicLib/Test.h>
+//#import "Test.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -20,6 +23,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [[[Test alloc] init] test];
+    [[[Person alloc] init] run];
 }
 
 @end

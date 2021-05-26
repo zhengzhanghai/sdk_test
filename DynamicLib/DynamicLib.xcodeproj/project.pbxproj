@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AD912C20265D045D003AA998 /* DynamicLib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C1E265D045D003AA998 /* DynamicLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD912C91265E2778003AA998 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C8F265E2778003AA998 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD912C92265E2778003AA998 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C90265E2778003AA998 /* Test.m */; };
+		AD912C97265E2780003AA998 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C95265E277F003AA998 /* Person.h */; };
+		AD912C98265E2780003AA998 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C96265E2780003AA998 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD912C1B265D045D003AA998 /* DynamicLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD912C1E265D045D003AA998 /* DynamicLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicLib.h; sourceTree = "<group>"; };
 		AD912C1F265D045D003AA998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD912C8F265E2778003AA998 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AD912C90265E2778003AA998 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		AD912C95265E277F003AA998 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AD912C96265E2780003AA998 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				AD912C1E265D045D003AA998 /* DynamicLib.h */,
+				AD912C8F265E2778003AA998 /* Test.h */,
+				AD912C90265E2778003AA998 /* Test.m */,
+				AD912C95265E277F003AA998 /* Person.h */,
+				AD912C96265E2780003AA998 /* Person.m */,
 				AD912C1F265D045D003AA998 /* Info.plist */,
 			);
 			path = DynamicLib;
@@ -59,7 +71,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD912C91265E2778003AA998 /* Test.h in Headers */,
 				AD912C20265D045D003AA998 /* DynamicLib.h in Headers */,
+				AD912C97265E2780003AA998 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD912C98265E2780003AA998 /* Person.m in Sources */,
+				AD912C92265E2778003AA998 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +289,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.DynamicLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -299,6 +316,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.DynamicLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

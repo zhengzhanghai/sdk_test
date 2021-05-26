@@ -1,8 +1,8 @@
 //
 //  Test.m
-//  SaticLib
+//  DynamicLib
 //
-//  Created by 郑章海 on 2021/5/25.
+//  Created by 郑章海 on 2021/5/26.
 //
 
 #import "Test.h"
@@ -12,7 +12,7 @@
 
 - (void)test {
     Person *person = [[Person alloc] init];
-    person.name = @"Static Lib";
+    person.name = @"Dynamic Lib";
     [person run];
 }
 

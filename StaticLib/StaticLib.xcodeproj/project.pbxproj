@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD912C0A265D0430003AA998 /* SaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C08265D0430003AA998 /* SaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD912C4F265D058C003AA998 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C4D265D058C003AA998 /* Person.h */; };
-		AD912C50265D058C003AA998 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C4E265D058C003AA998 /* Person.m */; };
-		AD912C55265D059C003AA998 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C53265D059C003AA998 /* Test.h */; };
-		AD912C56265D059C003AA998 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C54265D059C003AA998 /* Test.m */; };
+		AD912C6E265E2536003AA998 /* StaticLib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C6C265E2536003AA998 /* StaticLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD912C86265E266E003AA998 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C82265E266E003AA998 /* Test.m */; };
+		AD912C87265E266E003AA998 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C83265E266E003AA998 /* Person.h */; };
+		AD912C88265E266E003AA998 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AD912C84265E266E003AA998 /* Person.m */; };
+		AD912C89265E266E003AA998 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = AD912C85265E266E003AA998 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD912C05265D0430003AA998 /* SaticLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SaticLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD912C08265D0430003AA998 /* SaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaticLib.h; sourceTree = "<group>"; };
-		AD912C09265D0430003AA998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD912C4D265D058C003AA998 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		AD912C4E265D058C003AA998 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		AD912C53265D059C003AA998 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		AD912C54265D059C003AA998 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		AD912C69265E2536003AA998 /* StaticLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StaticLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD912C6C265E2536003AA998 /* StaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLib.h; sourceTree = "<group>"; };
+		AD912C6D265E2536003AA998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD912C82265E266E003AA998 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		AD912C83265E266E003AA998 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AD912C84265E266E003AA998 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AD912C85265E266E003AA998 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD912C02265D0430003AA998 /* Frameworks */ = {
+		AD912C66265E2536003AA998 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,83 +35,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD912BFB265D0430003AA998 = {
+		AD912C5F265E2536003AA998 = {
 			isa = PBXGroup;
 			children = (
-				AD912C07265D0430003AA998 /* SaticLib */,
-				AD912C06265D0430003AA998 /* Products */,
+				AD912C6B265E2536003AA998 /* StaticLib */,
+				AD912C6A265E2536003AA998 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AD912C06265D0430003AA998 /* Products */ = {
+		AD912C6A265E2536003AA998 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD912C05265D0430003AA998 /* SaticLib.framework */,
+				AD912C69265E2536003AA998 /* StaticLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD912C07265D0430003AA998 /* SaticLib */ = {
+		AD912C6B265E2536003AA998 /* StaticLib */ = {
 			isa = PBXGroup;
 			children = (
-				AD912C08265D0430003AA998 /* SaticLib.h */,
-				AD912C53265D059C003AA998 /* Test.h */,
-				AD912C54265D059C003AA998 /* Test.m */,
-				AD912C4D265D058C003AA998 /* Person.h */,
-				AD912C4E265D058C003AA998 /* Person.m */,
-				AD912C09265D0430003AA998 /* Info.plist */,
+				AD912C83265E266E003AA998 /* Person.h */,
+				AD912C84265E266E003AA998 /* Person.m */,
+				AD912C85265E266E003AA998 /* Test.h */,
+				AD912C82265E266E003AA998 /* Test.m */,
+				AD912C6C265E2536003AA998 /* StaticLib.h */,
+				AD912C6D265E2536003AA998 /* Info.plist */,
 			);
-			path = SaticLib;
+			path = StaticLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AD912C00265D0430003AA998 /* Headers */ = {
+		AD912C64265E2536003AA998 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD912C0A265D0430003AA998 /* SaticLib.h in Headers */,
-				AD912C4F265D058C003AA998 /* Person.h in Headers */,
-				AD912C55265D059C003AA998 /* Test.h in Headers */,
+				AD912C6E265E2536003AA998 /* StaticLib.h in Headers */,
+				AD912C89265E266E003AA998 /* Test.h in Headers */,
+				AD912C87265E266E003AA998 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AD912C04265D0430003AA998 /* SaticLib */ = {
+		AD912C68265E2536003AA998 /* StaticLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD912C0D265D0430003AA998 /* Build configuration list for PBXNativeTarget "SaticLib" */;
+			buildConfigurationList = AD912C71265E2536003AA998 /* Build configuration list for PBXNativeTarget "StaticLib" */;
 			buildPhases = (
-				AD912C00265D0430003AA998 /* Headers */,
-				AD912C01265D0430003AA998 /* Sources */,
-				AD912C02265D0430003AA998 /* Frameworks */,
-				AD912C03265D0430003AA998 /* Resources */,
+				AD912C64265E2536003AA998 /* Headers */,
+				AD912C65265E2536003AA998 /* Sources */,
+				AD912C66265E2536003AA998 /* Frameworks */,
+				AD912C67265E2536003AA998 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SaticLib;
-			productName = SaticLib;
-			productReference = AD912C05265D0430003AA998 /* SaticLib.framework */;
+			name = StaticLib;
+			productName = StaticLib;
+			productReference = AD912C69265E2536003AA998 /* StaticLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD912BFC265D0430003AA998 /* Project object */ = {
+		AD912C60265E2536003AA998 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					AD912C04265D0430003AA998 = {
+					AD912C68265E2536003AA998 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = AD912BFF265D0430003AA998 /* Build configuration list for PBXProject "SaticLib" */;
+			buildConfigurationList = AD912C63265E2536003AA998 /* Build configuration list for PBXProject "StaticLib" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,18 +119,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AD912BFB265D0430003AA998;
-			productRefGroup = AD912C06265D0430003AA998 /* Products */;
+			mainGroup = AD912C5F265E2536003AA998;
+			productRefGroup = AD912C6A265E2536003AA998 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD912C04265D0430003AA998 /* SaticLib */,
+				AD912C68265E2536003AA998 /* StaticLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AD912C03265D0430003AA998 /* Resources */ = {
+		AD912C67265E2536003AA998 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -140,19 +140,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD912C01265D0430003AA998 /* Sources */ = {
+		AD912C65265E2536003AA998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD912C50265D058C003AA998 /* Person.m in Sources */,
-				AD912C56265D059C003AA998 /* Test.m in Sources */,
+				AD912C88265E266E003AA998 /* Person.m in Sources */,
+				AD912C86265E266E003AA998 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AD912C0B265D0430003AA998 /* Debug */ = {
+		AD912C6F265E2536003AA998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		AD912C0C265D0430003AA998 /* Release */ = {
+		AD912C70265E2536003AA998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 			};
 			name = Release;
 		};
-		AD912C0E265D0430003AA998 /* Debug */ = {
+		AD912C72265E2536003AA998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -278,23 +278,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SaticLib/Info.plist;
+				INFOPLIST_FILE = StaticLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = mh_dylib;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.SaticLib;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.StaticLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AD912C0F265D0430003AA998 /* Release */ = {
+		AD912C73265E2536003AA998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -302,16 +301,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SaticLib/Info.plist;
+				INFOPLIST_FILE = StaticLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = mh_dylib;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.SaticLib;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.StaticLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD912BFF265D0430003AA998 /* Build configuration list for PBXProject "SaticLib" */ = {
+		AD912C63265E2536003AA998 /* Build configuration list for PBXProject "StaticLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD912C0B265D0430003AA998 /* Debug */,
-				AD912C0C265D0430003AA998 /* Release */,
+				AD912C6F265E2536003AA998 /* Debug */,
+				AD912C70265E2536003AA998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD912C0D265D0430003AA998 /* Build configuration list for PBXNativeTarget "SaticLib" */ = {
+		AD912C71265E2536003AA998 /* Build configuration list for PBXNativeTarget "StaticLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD912C0E265D0430003AA998 /* Debug */,
-				AD912C0F265D0430003AA998 /* Release */,
+				AD912C72265E2536003AA998 /* Debug */,
+				AD912C73265E2536003AA998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD912BFC265D0430003AA998 /* Project object */;
+	rootObject = AD912C60265E2536003AA998 /* Project object */;
 }

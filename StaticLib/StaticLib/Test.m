@@ -11,7 +11,7 @@
 @implementation Test
 
 - (void)test {
-    [Person ]
+    [[[Person alloc] init] run];
 }
 
 @end
